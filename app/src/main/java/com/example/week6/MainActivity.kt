@@ -11,34 +11,34 @@ class MainActivity : AppCompatActivity() {
     var recycleView : RecyclerView? = null
 
     var foodMenuText = arrayOf(
-        "Kawachi Fuji Garden",
-        "Happo Pond",
-        "Motonosumi-inari Shrine",
-        "Nachi Falls",
-        "Zao Ski Resort",
-        "Kintetsu Beppu Ropeway",
-        "Matsumoto Castle",
-        "Shiratani Unsuikyo Gorge",
-        "Hitachi Seaside Park",
-        "Sagano Bamboo Forest",
-        "Otaru Snow Light Path Festival",
-        "Usa Shrine",
-        "Mt.Daisen"
+        "Kale",
+        "tomato",
+        "morning glory",
+        "chilli",
+        "lemon",
+        "eggplant",
+        "Lettuce",
+        "celery",
+        "carrot",
+        "pumpkin",
+        "cucumber",
+        "papaya",
+        "Bergamot"
     )
     var foodMenuImage = arrayOf<Int>(
-        R.drawable.t1,
-        R.drawable.t2,
-        R.drawable.t3,
-        R.drawable.t4,
-        R.drawable.t5,
-        R.drawable.t6,
-        R.drawable.t7,
-        R.drawable.t8,
-        R.drawable.t9,
-        R.drawable.t10,
-        R.drawable.t11,
-        R.drawable.t12,
-        R.drawable.t13
+        R.drawable.v1,
+        R.drawable.v2,
+        R.drawable.v3,
+        R.drawable.v4,
+        R.drawable.v5,
+        R.drawable.v6,
+        R.drawable.v7,
+        R.drawable.v8,
+        R.drawable.v9,
+        R.drawable.v10,
+        R.drawable.v11,
+        R.drawable.v12,
+        R.drawable.v13
     )
     var context : Context = this
     override fun onCreate(savedInstanceState: Bundle?) {
